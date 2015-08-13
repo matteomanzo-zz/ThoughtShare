@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using App.Controllers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MvcApplication;
-using MvcApplication.Controllers;
 
-namespace MvcApplication.Tests.Controllers
+namespace App.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest
@@ -22,7 +17,8 @@ namespace MvcApplication.Tests.Controllers
             ViewResult result = controller.Index() as ViewResult;
 
             // Assert
-            Assert.AreEqual("Modify this template to jump-start your ASP.NET MVC application.", result.ViewBag.Message);
+            if (result != null)
+                Assert.AreEqual("Modify this template to jump-start your ASP.NET MVC application.", result.ViewBag.Message);
         }
 
         [TestMethod]

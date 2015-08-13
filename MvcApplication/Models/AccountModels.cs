@@ -7,7 +7,7 @@ using System.Globalization;
 using System.Web.Mvc;
 using System.Web.Security;
 
-namespace MvcApplication.Models
+namespace App.Models
 {
     public class UsersContext : DbContext
     {

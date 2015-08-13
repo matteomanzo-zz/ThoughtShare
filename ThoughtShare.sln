@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication", "MvcApplication\MvcApplication.csproj", "{41D39EAC-13E6-40C3-9B23-F1ED96B90055}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeasBuild", "MvcApplication\IdeasBuild.csproj", "{41D39EAC-13E6-40C3-9B23-F1ED96B90055}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication.Tests", "MvcApplication.Tests\MvcApplication.Tests.csproj", "{0B20DE66-A1A8-4C53-9260-037F1DECC37B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeasBuild.Tests", "MvcApplication.Tests\IdeasBuild.Tests.csproj", "{0B20DE66-A1A8-4C53-9260-037F1DECC37B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

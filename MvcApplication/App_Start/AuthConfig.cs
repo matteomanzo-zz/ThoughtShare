@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Web.WebPages.OAuth;
-using MvcApplication.Models;
+using App.Models;
 
-namespace MvcApplication
+namespace App
 {
     public static class AuthConfig
     {

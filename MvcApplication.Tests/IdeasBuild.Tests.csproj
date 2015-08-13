@@ -9,8 +9,8 @@
     <ProjectGuid>{0B20DE66-A1A8-4C53-9260-037F1DECC37B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MvcApplication.Tests</RootNamespace>
-    <AssemblyName>MvcApplication.Tests</AssemblyName>
+    <RootNamespace>App.Tests</RootNamespace>
+    <AssemblyName>App.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -127,9 +127,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MvcApplication\MvcApplication.csproj">
+    <ProjectReference Include="..\MvcApplication\IdeasBuild.csproj">
       <Project>{41D39EAC-13E6-40C3-9B23-F1ED96B90055}</Project>
-      <Name>MvcApplication</Name>
+      <Name>IdeasBuild</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
