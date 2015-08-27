@@ -18,7 +18,7 @@ namespace App.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Ideas()
         {
             ViewBag.Message = "Your app description page.";
 
