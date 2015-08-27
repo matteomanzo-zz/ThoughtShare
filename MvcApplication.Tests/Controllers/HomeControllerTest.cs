@@ -28,7 +28,7 @@ namespace App.Tests.Controllers
             HomeController controller = new HomeController();
 
             // Act
-            ViewResult result = controller.About() as ViewResult;
+            ViewResult result = controller.Ideas() as ViewResult;
 
             // Assert
             Assert.IsNotNull(result);
