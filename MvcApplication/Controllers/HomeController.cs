@@ -20,7 +20,7 @@ namespace App.Controllers
 
         public ActionResult Ideas()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "Share ideas here.";
 
             return View();
         }
